@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-                stage('Validate'){
+                stage('Validate1'){
                                steps{
                 sh 'sleep 5'
                 echo 'Validate'
